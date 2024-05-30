@@ -1,0 +1,1 @@
+docker run -e SDL_VIDEODRIVER=x11 -e DISPLAY=$DISPLAY  -v /tmp/.X11-unix:/tmp/.X11-unix -p 2000-2002:2000-2002 --gpus all --name carla --rm -it carlasim/carla:0.9.14 /bin/bash ./CarlaUE4.sh
