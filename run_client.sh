@@ -1,4 +1,4 @@
-docker build -t carla/client .
+docker build -t carla/client -f dockerfile/Dockerfile .
 xhost local:root
 docker run --gpus all \
         -it --privileged \

@@ -14,13 +14,13 @@ docker pull carlasim/carla:0.9.14
 This execution will create a docker image for executing the scripts.
 
 ## Usage
-Run the simulator, available in `dockerfile/run_server.sh`:
+Run the simulator:
 ```
 bash run_server.sh
 
 ```
 
-In another terminal, run the [run_client.sh](https://github.com/joaobarros05/speed_simulator/blob/feat-speed-simulator/dockerfile/run_client.sh) file, available in `dockerfile/run_client.sh`:
+In another terminal, run the run_client.sh file:
 ```
 bash run_client.sh
 ```
